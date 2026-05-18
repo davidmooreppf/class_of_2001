@@ -337,6 +337,22 @@ body {
   color: var(--brown);
   margin-top: 14px;
 }
+.byline-credit {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 18px;
+  color: var(--brown);
+}
+.byline-credit a {
+  color: var(--red);
+  text-decoration: none;
+  border-bottom: 1px solid var(--red);
+}
+.byline-credit a:hover {
+  color: var(--brown);
+  border-bottom-color: var(--brown);
+}
 
 /* ----------- Responsive ----------- */
 @media (max-width: 880px) {
